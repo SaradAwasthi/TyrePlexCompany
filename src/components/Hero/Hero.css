@@ -1,0 +1,225 @@
+/* Default styles for larger screens */
+.hero-content {
+    display: flex;
+    padding: 20px;
+  }
+  .dealer-info-container {
+    display: none;
+  }
+  
+  .dealer-info-container {
+    display: block;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .dealer-info-header {
+    margin-bottom: 15px;
+  }
+  
+  .dealer-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .verified-badge {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 0.75rem;
+    padding: 2px 6px;
+    border-radius: 12px;
+    margin-left: 10px;
+  }
+  
+  .dealer-rating {
+    display: flex;
+    align-items: center;
+    font-size: 0.875rem;
+  }
+  
+  .rating-stars {
+    display: flex;
+    align-items: center;
+    color: #FFC107;
+  }
+  
+  .rating-number {
+    margin-right: 5px;
+    font-weight: bold;
+  }
+  
+  .reviews-count {
+    margin-left: 10px;
+    color: #666;
+  }
+  
+  .rate-button {
+    margin-left: auto;
+    background: none;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .dealer-details {
+    margin-bottom: 15px;
+  }
+  
+  .dealer-location, .dealer-hours {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    font-size: 0.875rem;
+  }
+  
+  .dealer-location i, .dealer-hours i {
+    margin-right: 10px;
+    color: #666;
+  }
+  
+  .get-directions-button {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .dealer-images {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .dealer-image {
+    width: calc(50% - 5px);
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  /* Mobile Responsive Styles */
+  @media (max-width: 767px) {
+    .hero-content {
+        display: none;
+      }
+  
+    
+  
+    .dealer-info {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .dealer-info-left {
+      flex: 1;
+      padding-right: 20px;
+    }
+  
+    .dealer-name {
+      font-size: 1.25rem;
+    }
+  
+    .verified {
+      background-color: transparent;
+      color: green;
+      font-size: 0.875rem;
+      padding: 2px 6px;
+      border-radius: 4px;
+      margin-left: 10px;
+    }
+  
+    .dealer-rating {
+      display: flex;
+      align-items: center;
+    }
+  
+    .stars {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+    }
+  
+    .star {
+      margin-right: 2px;
+    }
+  
+    .star.selected .fa-star {
+      color: gold;
+    }
+  
+    .reviews-count {
+      margin-left: 10px;
+    }
+  
+    .rate-btn {
+      margin-left: 10px;
+      padding: 5px 10px;
+      background-color: lightgray;
+      border: none;
+      cursor: pointer;
+    }
+  
+    .get-directions {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 5px 10px;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+  
+    .dealer-info-right {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .gallery {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .gallery-item {
+      margin: 5px;
+    }
+  
+    .gallery-img {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+  }
+  
+  /* Default styles for larger screens */
+  @media (min-width: 768px) {
+    .dealer-info-container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .dealer-info-header {
+      width: 100%;
+    }
+  
+    .dealer-details {
+      width: 60%;
+      padding-right: 20px;
+    }
+  
+    .dealer-images {
+      width: 40%;
+    }
+  }
+  

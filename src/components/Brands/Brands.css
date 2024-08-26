@@ -1,0 +1,21 @@
+.brands-container {
+  overflow-x: auto;
+  white-space: nowrap;
+  position: relative;
+  padding: 0 10px;
+}
+
+.custom-carousel {
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  scrollbar-width: none;
+}
+
+.item {
+  display: inline-block;
+  margin-right: 10px;
+}

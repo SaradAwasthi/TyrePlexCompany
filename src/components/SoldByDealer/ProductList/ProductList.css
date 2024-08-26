@@ -1,0 +1,118 @@
+.product-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    position: relative;
+  z-index: 1;
+  }
+  
+  .product-item-card {
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  .product-item-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .product-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-description .tyre_brand .brand-logo {
+    display: inline-block;
+  }
+  
+  .rt-bg {
+    display: flex;
+    align-items: center;
+  }
+  
+  .rt-bg .fa-star {
+    margin-right: 5px;
+  }
+  
+  .review-text {
+    margin-left: 10px;
+    font-size: 0.9em;
+    color: #777;
+  }
+  
+  .product-price {
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  .offer-text {
+    color: red;
+    margin-top: 5px;
+  }
+  
+  .product-feature {
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+    .product-image-section {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .warranty-tag {
+      position: absolute;
+      top: 5px;
+      left: 5px;
+      background-color: #ffc107;
+      padding: 2px 5px;
+      font-size: 0.8em;
+      border-radius: 3px;
+    }
+    
+  .product-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .product-list-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .product-item-card {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+  
+    .product-info {
+      padding: 0.5rem;
+    }
+  
+    .product-image-section {
+      text-align: center;
+    }
+  
+    .product-item-link {
+      display: block;
+    }
+  
+    .product-info .tyre_brand img {
+      width: 50%;
+    }
+  
+    .m-name,
+    .v-name,
+    .rating-value,
+    .product-price,
+    .product-feature {
+      font-size: 0.9rem;
+    }
+  }
+  

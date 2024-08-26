@@ -1,0 +1,46 @@
+.review-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .review-count {
+    font-size: 22px;
+  }
+  
+  .review-container {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    scrollbar-width: none;
+  }
+  
+  .review-card {
+    min-width: 315px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 15px;
+  }
+  
+  .review-user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .user-name {
+    font-weight: bold;
+  }
+  
+  .review-comment {
+    font-size: 14px;
+    color: #555;
+  }

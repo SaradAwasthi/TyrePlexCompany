@@ -1,0 +1,53 @@
+.filter-dropdown {
+  position: relative; 
+  display: inline-block;
+}
+
+.sortBy_brand {
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.dropdown-options {
+  position: relative; 
+  top: 100%; 
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid black;
+  z-index: 10; 
+}
+
+.dropdown-options .filter-option {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.filter-option:hover {
+  background-color: #f0f0f0;
+}
+
+.filter-option {
+  padding: 10px;
+  cursor: pointer;
+  display: block;
+}
+
+.filter-option:hover {
+  background-color: #f0f0f0;
+}
+
+
+@media (max-width: 767px) {
+  .filter-dropdown {
+    justify-content: flex-end; 
+    width: 100%;
+  }
+
+  .filter-dropdown button {
+    width: auto;
+    margin-left: auto; 
+  }
+
+}
